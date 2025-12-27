@@ -13,7 +13,7 @@ body {
   font-family: 'General Sans', sans-serif;
 }
 
-@layer utilities {
+/* @layer utilities {
   .c-space {
     @apply sm:px-10 px-5;
   }
@@ -43,7 +43,7 @@ body {
   }
 
   /* button component */
-  .btn {
+  /* .btn {
     @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300 transition-all active:scale-95 text-white mx-auto;
   }
 
@@ -56,29 +56,29 @@ body {
   }
 
   /* hero section */
-  .hero_tag {
+  /* .hero_tag {
     @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
   }
 
   /* about section */
-  .grid-container {
+  /* .grid-container {
     @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
-  }
+  } */
 
-  .grid-headtext {
+  /* .grid-headtext {
     @apply text-xl font-semibold mb-2 text-white font-generalsans;
-  }
+  } */
 
-  .grid-subtext {
+  /* .grid-subtext {
     @apply text-[#afb0b6] text-base font-generalsans;
-  }
+  } */
 
-  .copy-container {
+  /* .copy-container {
     @apply cursor-pointer flex justify-center items-center gap-2;
-  }
+  } */
 
   /* projects section  */
-  .arrow-btn {
+  /* .arrow-btn {
     @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full;
     background-image: linear-gradient(to right,
         rgba(255, 255, 255, 0.1) 10%,
@@ -92,7 +92,7 @@ body {
   }
 
   /* clients section */
-  .client-container {
+  /* .client-container {
     @apply grid md:grid-cols-2 grid-cols-1 gap-5 mt-12;
   }
 
@@ -105,7 +105,7 @@ body {
   }
 
   /*  work experience section */
-  .work-container {
+  /* .work-container {
     @apply grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12;
   }
 
@@ -115,9 +115,9 @@ body {
 
   .work-content {
     @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
-  }
+  } */
 
-  .work-content_container {
+  /* .work-content_container {
     @apply grid grid-cols-[auto_1fr] items-start gap-5 transition-all ease-in-out duration-500 cursor-pointer hover:bg-black-300 rounded-lg sm:px-5 px-2.5;
   }
 
@@ -130,7 +130,7 @@ body {
   }
 
   /* contact section */
-  .contact-container {
+  /* .contact-container {
     @apply max-w-xl relative z-10 sm:px-10 px-5 mt-12;
   }
 
@@ -140,9 +140,9 @@ body {
 
   .field-input {
     @apply w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 shadow-black-200 shadow-2xl focus:outline-none;
-  }
+  } */
 
-  .field-btn {
+  /* .field-btn {
     @apply bg-black-500 px-5 py-2 min-h-12 rounded-lg shadow-black-200 shadow-2xl flex justify-center items-center text-lg text-white gap-3;
   }
 
@@ -151,11 +151,9 @@ body {
   }
 
   /*  footer */
-  .social-icon {
+  /* .social-icon {
     @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
-  }
-}
-
+  } */ 
 .waving-hand {
   animation-name: wave-animation;
   animation-duration: 2.5s;
